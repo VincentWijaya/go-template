@@ -4,7 +4,7 @@ This is my golang service template that implement clean architecture.
 Feel free to use it 😊
 
 ---
-#How to run:
+# How to run:
 
 ```
 1. Clone this repo for sure 😊
@@ -13,7 +13,7 @@ Feel free to use it 😊
 4. go run cmd/main.go
 ```
 
-#Project structer:
+# Project structer:
 ```
 📦go-template
  ┣ 📂cmd
