@@ -24,6 +24,7 @@ type ServerConfig struct {
 type LogConfig struct {
 	LogPath string
 	Level   string
+	Stdout  bool
 }
 
 const fileLocation = "/etc/serviceName/"
@@ -48,6 +49,7 @@ func main() {
 		StdoutFile: config.Log.LogPath + infoFile,
 		StderrFile: config.Log.LogPath + errorFile,
 		Level:      config.Log.Level,
+		Stdout:     config.Log.Stdout,
 	}
 	log.InitLogger(config.Server.Environment, logConfig, []string{})
 

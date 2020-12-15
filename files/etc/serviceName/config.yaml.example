@@ -5,3 +5,4 @@
 [Log]
   LogPath = "log/"
   Level   = "info"
+  Stdout  = true
